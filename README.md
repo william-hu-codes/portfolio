@@ -1,3 +1,10 @@
+A brief summary of who you are
+A link to your deployed application
+Technologies used
+Acknowledgements
+References for your inspiration/sources
+A list of future features
+-----------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
