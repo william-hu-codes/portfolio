@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import "./Projects.css"
+import images from "../../assets/images";
 
 function Projects(props) {
   // create state to hold projects
   const [projects, setProjects] = useState(null);
 
   //create function to make api call
-  const getProjectsData = async () => {
+  async function getProjectsData() {
 		//make api call and get response
     const response = await fetch("./projects.json");
 		// turn response into javascript object
@@ -16,7 +17,7 @@ function Projects(props) {
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => getProjectsData(), []);
+  useEffect(() => { getProjectsData() }, []);
 
   // define a function that will return the JSX needed once we get the data
   function loaded() {
@@ -41,7 +42,7 @@ function Projects(props) {
   }
 
   return (
-    <div className="flex-ctr-ctr" >
+    <div className="projects-grid-ctr" >
       {loaded()}
     </div>
   )

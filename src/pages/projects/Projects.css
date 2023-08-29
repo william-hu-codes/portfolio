@@ -2,3 +2,13 @@ img.project-img {
     width: 300px;
 
 }
+
+.projects-grid-ctr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+button {
+    margin: 5px;
+}

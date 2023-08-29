@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.app {
+  background-color: rgb(53, 53, 53);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+    /* source: https://moderncss.dev/generating-font-size-css-rules-and-creating-a-fluid-type-scale/ */
+    min-height: 100vh;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+  margin:0;
+  line-height: calc(.125rem + 2ex + .125rem);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* adding a `modular scale` for headings based on a perfect fifth - source: https://www.modularscale.com/?16&px&1.5*/
+h1 {
+  font-size: 3.375rem;
+}
+h2 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.667rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main{
+  padding: 4rem 0 6rem 0;
+}
+
+section {
+  margin: 2rem 0 4rem 0;
+}
+
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 90%;
+  margin: 0 auto;
 }
