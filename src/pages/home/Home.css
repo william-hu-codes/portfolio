@@ -1,7 +1,10 @@
 .home-ctr {
     height: 85vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin-left: 10%;
+    width: 50vw;
 }
 
 .home-ctr h1 {
@@ -26,11 +29,29 @@
 }
 
 .title {
-    font-family: 'VT323', monospace;}
+    font-family: 'VT323', monospace;
+}
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 3s steps(20, end) forwards alternate-reverse infinite
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
 
 .greeting {
     font-family: 'VT323', monospace;
 }
+
+
 
 @keyframes rainbow {
     0% {
