@@ -29,7 +29,7 @@ nav {
 
 .nav-text:hover {
     color: white;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px green, 0 0 20px green, 0 0 25px green, 0 0 30px green, 0 0 35px green;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red, 0 0 35px red;
     font-size: 30px;
     transition: 0.40s;
 }
