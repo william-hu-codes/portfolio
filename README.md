@@ -1,5 +1,6 @@
 A brief summary of who you are
 A link to your deployed application
+https://magnificent-profiterole-ad7aeb.netlify.app/
 Technologies used
 Acknowledgements
 https://github.com/brandonmcconnell/typed.css

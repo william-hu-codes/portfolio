@@ -8,7 +8,7 @@ export default function Header(props) {
           {/* <h1>My Portfolio</h1> */}
           <nav>
             <Link className="link logo-ctr" to="/" >
-              <img className="logo" src="https://i.imgur.com/HZWxIra.png" alt="William Hu Logo" />
+              <img className="logo" src="https://i.imgur.com/FnTxhIy.png" alt="William Hu Logo" />
             </Link>
             <Link className="link" to="/">
               <h3 className="nav-text" >HOME</h3>

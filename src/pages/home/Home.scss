@@ -19,21 +19,19 @@
 }
 
 .intro {
-    font-family: 'VT323', monospace;
-}
+    font-family: 'Yeseva One', cursive;}
 
 .name {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Italiana', serif;
     color: white;
     /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px purple, 0 0 20px purple, 0 0 25px purple, 0 0 30px purple, 0 0 35px purple; */
     animation: rainbow 10s alternate infinite, flicker 10s infinite
 }
 
 .title {
-    font-family: 'DotGothic16', sans-serif;
-}
+    font-family: 'Yeseva One', cursive;}
 
-.dynamic-text {
+.typed-text {
 	padding: 0 0 0 3px;
 	background-color: lightsalmon;
 	&::before { font-weight: 600; }
@@ -45,8 +43,7 @@
 }
 
 .greeting {
-    font-family: 'VT323', monospace;
-}
+    font-family: 'Yeseva One', cursive;}
 
 @keyframes rainbow {
     0% {

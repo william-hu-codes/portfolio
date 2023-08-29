@@ -1,11 +1,12 @@
 .logo {
-    width: 300px;
+    height: 45px;
+    width: auto;
     border-radius: 10px;
 
 }
 
 header {
-    background-color: black;
+    background-color: lightblue;
 }
 
 
@@ -19,9 +20,8 @@ nav {
 }
 
 .nav-text {
-    font-family: 'Orbitron', sans-serif;
-    color: #ffd9e2;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px purple, 0 0 20px purple, 0 0 25px purple, 0 0 30px purple, 0 0 35px purple;
+    font-family: 'Yeseva One', cursive;    color: lightcoral;
+    /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px purple, 0 0 20px purple, 0 0 25px purple, 0 0 30px purple, 0 0 35px purple; */
     text-decoration: none;
     /* font-size: 25px; */
     /* animation: flicker 3s infinite; */
@@ -29,7 +29,7 @@ nav {
 
 .nav-text:hover {
     color: white;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red, 0 0 35px red;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px pink, 0 0 20px pink, 0 0 25px pink, 0 0 30px pink, 0 0 35px pink;
     font-size: 30px;
     transition: 0.40s;
 }
@@ -43,22 +43,4 @@ nav {
 .link {
     text-decoration: none;
     margin: auto
-}
-
-@keyframes flicker{
-    40% {
-        opacity: 1;
-    }
-    42% {
-        opacity: 0.8;
-    }
-    43% {
-        opacity: 1;
-    }
-    45% {
-        opacity: 0.3;
-    }
-    46% {
-        opacity: 1;
-    }
 }
