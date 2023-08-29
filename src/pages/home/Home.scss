@@ -1,17 +1,18 @@
+@import 'typed';
+
 .home-ctr {
     height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10%;
-    width: 50vw;
 }
 
 .home-ctr h1 {
     font-size: 70px;
 }
 .home-ctr h2 {
-    font-size: 60px;
+    font-size: 40px;
 }
 .home-ctr h3 {
     font-size: 25px;
@@ -29,29 +30,23 @@
 }
 
 .title {
-    font-family: 'VT323', monospace;
+    font-family: 'DotGothic16', sans-serif;
 }
 
-.typed-out{
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    font-size: 1.6rem;
-    width: 0;
-    animation: 
-      typing 3s steps(20, end) forwards alternate-reverse infinite
-  }
-
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+.dynamic-text {
+	padding: 0 0 0 3px;
+	background-color: lightsalmon;
+	&::before { font-weight: 600; }
+	@include typed(
+		"Software Engineer", "Full-Stack Developer", "Software Developer",
+		2,
+		(caret-width: 2px, caret-space: 2px)
+	);
+}
 
 .greeting {
     font-family: 'VT323', monospace;
 }
-
-
 
 @keyframes rainbow {
     0% {
