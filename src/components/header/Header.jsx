@@ -10,7 +10,7 @@ export default function Header(props) {
           <nav>
             <Link className="link logo-ctr" to="/" >
               {/* <img className="logo" src="https://i.imgur.com/JqRF8Em.png" alt="William Hu Logo" /> */}
-              < GiSpermWhale style={{color: "black"}} size={60} />
+              < GiSpermWhale className="logo" />
             </Link>
             <Link className="link" to="/">
               <h3 className="nav-text" >// HOME</h3>
