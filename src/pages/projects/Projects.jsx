@@ -22,15 +22,15 @@ function Projects(props) {
   // define a function that will return the JSX needed once we get the data
   function loaded() {
     return projects.map((project) => (
-      <div className="project-div flex-ctr-ctr-col" >
-        <h1>{project.name}</h1>
+      <div className="project-card" >
+        <h2>{project.name}</h2>
         <img className="project-img" src={project.image} />
         <div classNamed="buttons-div flex-ctr-ctr" >
           <a href={project.git}>
-            <button>Github</button>
+            <button>// GitHub</button>
           </a>
           <a href={project.live}>
-            <button>live site</button>
+            <button>// Live Site</button>
           </a>
         </div>
       </div>
