@@ -4,19 +4,23 @@
       "name": "Tic-Tac-Toe",
       "live": "https://william-hu-codes.github.io/tic-tac-toe/",
       "git": "https://github.com/william-hu-codes/tic-tac-toe",
-      "image": "https://i.imgur.com/N0FWj4M.png"
+      "image": "https://i.imgur.com/N0FWj4M.png",
+      "tools": ["JavaScript", "CSS", "HTML"]
     },
     {
       "name": "Space Invaders",
       "live": "https://william-hu-codes.github.io/space-invaders/",
       "git": "https://github.com/william-hu-codes/space-invaders",
-      "image": "https://i.imgur.com/QlRfp7l.png"
+      "image": "https://i.imgur.com/QlRfp7l.png",
+      "tools": ["JavaScript", "CSS", "HTML"]
     },
     {
         "name": "Wavelength: EMR",
         "live": "https://wavelength-medical-records-50e817316e66.herokuapp.com/?fbclid=IwAR3qqvgpBvcA0vYMgNmVAxtsXeKd3JTlKcfBz8ps_Fxcilj5tG2uiFxbOaw",
         "git": "https://github.com/william-hu-codes/electronic-medical-record",
-        "image": "https://i.imgur.com/3cQ1RBD.png"
+        "image": "https://i.imgur.com/3cQ1RBD.png",
+        "tools": ["JavaScript", "CSS", "HTML", "Mongoose", "MongoDB", "Express", "Node"]
+
       }
   ]
   

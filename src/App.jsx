@@ -1,9 +1,11 @@
 import './App.css';
+import { useState, useEffect } from "react"
 
 // IMPORT COMPONENTS
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import { Route, Routes } from "react-router-dom"
+import ScrollButton from './components/ScrollButton/ScrollButton';
 
 // IMPORT PAGES
 import Home from './pages/home/Home';
@@ -11,6 +13,22 @@ import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 
 function App() {
+
+//scroll button
+const [showsScrolBtn, setShowScrolBtn] = useState(false);
+
+  useEffect(() => {
+    function handleButtonVisibility() {
+      window.pageYOffset > 200 ? setShowScrolBtn(true) : setShowScrolBtn(false);
+    };
+  
+    window.addEventListener("scroll", handleButtonVisibility);
+    return () => {
+      window.addEventListener("scroll", handleButtonVisibility);
+    };
+  }, []);
+  console.log(showsScrolBtn)
+
   return (
     <div className="App">
       <Header />
@@ -20,7 +38,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
-
+      { showsScrolBtn && <ScrollButton /> }
     </div>
   );
 }

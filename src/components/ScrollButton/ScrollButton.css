@@ -1,0 +1,10 @@
+#scrolToTop {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 0;
+    text-decoration: "none";
+    font-size: 2rem;
+}

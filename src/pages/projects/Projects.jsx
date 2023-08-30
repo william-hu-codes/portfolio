@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./Projects.css"
 import images from "../../assets/images";
 import ProjectCards from "./ProjectCards";
+import ScrollButton from "../../components/ScrollButton/ScrollButton";
 
 function Projects(props) {
   // create state to hold projects
@@ -20,27 +21,19 @@ function Projects(props) {
   // make an initial call for the data inside a useEffect, so it only happens once on component load
   useEffect(() => { getProjectsData() }, []);
 
-  const projectsList = projects?.map((project, idx) => <ProjectCards project={project} key={idx} />)
-  console.log(projectsList)
+  const projectsList = projects?.map((project, idx) => <ProjectCards project={project} idx={idx} />)
 
   // define a function that will return the JSX needed once we get the data
   function loaded() {
     return (
       <div className="projects">
         <div className="projects-grid-ctr" >
-        {projectsList}
+          {projectsList}
         </div>
       </div>
     )
   };
 
-  // return (
-  //   <div className="projects">
-  //     <div className="projects-grid-ctr" >
-  //     {loaded()}
-  //     </div>
-  //   </div>
-  // )
   return projectsList ? loaded() : <h1>Loading...</h1>;
 }
 
