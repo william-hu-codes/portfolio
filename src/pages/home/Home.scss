@@ -1,5 +1,11 @@
 @import 'typed';
 
+.home-icon {
+    color: lightsalmon;
+    font-size: 100px;
+    padding-left: 110px;
+}
+
 .home-ctr {
     height: 85vh;
     display: flex;
@@ -18,18 +24,9 @@
     font-size: 25px;
 }
 
-.intro {
-    color: salmon;
-}
-
-.name {
-    color: black;
-    // animation: rainbow 10s alternate infinite, flicker 10s infinite
-}
-
-.title {
-    color: black;
-}
+// .intro {
+//     color: salmon;
+// }
 
 span {
     color: white;
@@ -45,6 +42,22 @@ span {
 		(caret-width: 2px, caret-space: 2px)
 	);
 }
+
+.home-ctr button {
+    margin: 5px;
+    height: 2.5rem;
+    border-radius: 0.15rem;
+    background-color: rgba(232, 227, 215, 1);
+    border: 1px solid black;
+    font-size: 1rem;
+    margin-top: 0.75rem;
+}
+
+.home-ctr button:hover {
+    background-color: lightsalmon;
+    color: white;
+}
+
 
 @keyframes rainbow {
     0% {

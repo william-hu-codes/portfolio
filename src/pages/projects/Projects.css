@@ -1,12 +1,12 @@
 
-button {
+.projects button {
     margin: 5px;
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(232, 227, 215, 1);
 }
 
-button:hover {
+.projects button:hover {
     background-color: lightsalmon;
     color: white;
 }
