@@ -4,14 +4,8 @@ import { useState, useEffect } from "react"
 // IMPORT COMPONENTS
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import { Route, Routes } from "react-router-dom"
+import Main from './components/Main/Main';
 import ScrollButton from './components/ScrollButton/ScrollButton';
-
-// IMPORT PAGES
-import Home from './pages/home/Home';
-import About from './pages/about/About';
-import Projects from './pages/projects/Projects';
-import Error from "./pages/error/Error";
 
 function App() {
 
@@ -33,12 +27,7 @@ const [showsScrolBtn, setShowScrolBtn] = useState(false);
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/*" element={<Error />} />
-      </Routes>
+      <Main />
       <Footer />
       { showsScrolBtn && <ScrollButton /> }
     </div>
