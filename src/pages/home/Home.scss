@@ -3,7 +3,7 @@
 .home-icon {
     color: lightsalmon;
     font-size: 100px;
-    padding-left: 110px;
+    padding-left: 20px;
 }
 
 .home-ctr {
@@ -15,18 +15,26 @@
 }
 
 .home-ctr h1 {
-    font-size: 70px;
+    font-size: 87.5px;
 }
 .home-ctr h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 .home-ctr h3 {
+    font-size: 31.25px;
+}
+.home-ctr h4 {
     font-size: 25px;
+    font-weight: bolder;
 }
 
-// .intro {
-//     color: salmon;
-// }
+.intro-container h3 {
+    display: inline;
+}
+
+.intro {
+    color: salmon;
+}
 
 span {
     color: white;
