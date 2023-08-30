@@ -19,30 +19,18 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 0.5rem;
-    width: 90%;
-    /* margin: auto; */
+    /* width: 90%; */
 }
 
 .nav-text {
-    /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px purple, 0 0 20px purple, 0 0 25px purple, 0 0 30px purple, 0 0 35px purple; */
     text-decoration: none;
-    /* background-color: white; */
-    /* border-radius: 5px; */
     padding: 5px;
     color: black;
-    /* font-size: 25px; */
-    /* animation: flicker 3s infinite; */
 }
 
 .nav-text:hover {
-    /* color: white; */
-    /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px pink, 0 0 20px pink, 0 0 25px pink, 0 0 30px pink, 0 0 35px pink; */
-    /* font-size: 30px; */
-    /* transition: 0.40s; */
     background-color: lightsalmon;
     color: white; 
-    /* text-decoration: underline; */
-    /* color: salmon; */
 }
 
 .logo-ctr {

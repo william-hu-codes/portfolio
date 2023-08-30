@@ -6,21 +6,30 @@ button {
     background-color: rgba(232, 227, 215, 1);
 }
 
+button:hover {
+    background-color: lightsalmon;
+    color: white;
+}
+
 /* h2 {
     background-color: rgba(232, 227, 215, 1)
 } */
+
+.projects {
+    padding: 2rem;
+    height: 85vh;
+}
+
+.projects-grid-ctr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
 
 img.project-img {
     width: 300px;
     height: auto;
 
-}
-.projects-grid-ctr {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 85vh;
-    gap: 20px;
-    margin: 2rem;
 }
 
 .project-card {

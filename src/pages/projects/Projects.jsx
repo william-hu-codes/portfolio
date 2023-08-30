@@ -42,8 +42,10 @@ function Projects(props) {
   }
 
   return (
-    <div className="projects-grid-ctr" >
+    <div className="projects">
+      <div className="projects-grid-ctr" >
       {loaded()}
+      </div>
     </div>
   )
   // return projects ? loaded() : <h1>Loading...</h1>;
