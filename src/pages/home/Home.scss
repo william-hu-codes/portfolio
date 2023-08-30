@@ -7,7 +7,7 @@
 }
 
 .home-ctr {
-    height: 85vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,10 +23,10 @@
 .home-ctr h3 {
     font-size: 31.25px;
 }
-.home-ctr h4 {
-    font-size: 25px;
-    font-weight: bolder;
-}
+// .home-ctr h4 {
+//     font-size: 25px;
+//     font-weight: bolder;
+// }
 
 .intro-container h3 {
     display: inline;
@@ -45,7 +45,7 @@ span {
 	background-color: lightsalmon;
 	&::before { font-weight: 600; }
 	@include typed(
-		"Software Engineer!", "Full-Stack Developer!", "Programmer!", "Software Developer!", 
+		"Software Engineer!", "Full-Stack Developer!", "Registered Nurse!", "Programmer!", "Software Developer!", 
 		2,
 		(caret-width: 2px, caret-space: 2px)
 	);

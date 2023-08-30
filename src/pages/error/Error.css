@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: rgba(236, 235, 228, 1.0) ;
 }
 
 .error-div img {

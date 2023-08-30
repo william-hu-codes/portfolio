@@ -18,7 +18,7 @@ function Home(props) {
       <h2 className="title">I am a <span className="typed-text"></span></h2>
       {/* <h2 className="title input-wrapper typed-out">I am a <span className="input placeholder" >Software Developer</span></h2> */}
       {/* <h3 className="greeting">Nice to e-meet you!</h3> */}
-      <h4>and Registered Nurse</h4>
+      {/* <h4>and Registered Nurse</h4> */}
       <div>
         <Link to="/projects" >
           <button>Learn more about me →</button>

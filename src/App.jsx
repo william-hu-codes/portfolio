@@ -11,7 +11,7 @@ import ScrollButton from './components/ScrollButton/ScrollButton';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
-import Error from "./pages/error/Error"
+import Error from "./pages/error/Error";
 
 function App() {
 
