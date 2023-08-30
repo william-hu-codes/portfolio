@@ -48,14 +48,14 @@
 .project-card h2 {
     /* background-color: rgba(232, 227, 215, 1); */
     /* background-color: rgba(255, 171, 138, 0.689); */
-    background-color: white;
+    background-color: rgba(245, 241, 237, 1.0);
     /* border-top-left-radius: 10px; */
     /* border-top-right-radius: 10px; */
 }
 
 .project-img-div {
     /* background-color: rgba(232, 227, 215, 1); */
-    background-color: white;
+    background-color: rgba(245, 241, 237, 1.0);
 }
 
 img.project-img {
@@ -82,11 +82,11 @@ img.project-img {
 
 .tools-list p {
     /* background-color: rgba(232, 227, 215, 1); */
-    background-color: rgb(168, 120, 116);
+    background-color: rgba(208, 190, 177, 1.0);
     border-radius: 15px;
     padding: 5px;
     border: 1px solid black;
-    color: white;
+    color: black;
     /* font-weight: bold; */
 }
 
