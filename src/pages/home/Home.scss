@@ -19,31 +19,39 @@
 }
 
 .intro {
-    font-family: 'Yeseva One', cursive;}
+    font-family: 'Lato', sans-serif;
+    color: salmon;
+}
 
 .name {
-    font-family: 'Italiana', serif;
-    color: white;
-    /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px purple, 0 0 20px purple, 0 0 25px purple, 0 0 30px purple, 0 0 35px purple; */
-    animation: rainbow 10s alternate infinite, flicker 10s infinite
+    font-family: 'Lato', sans-serif;
+    color: black;
+    // animation: rainbow 10s alternate infinite, flicker 10s infinite
 }
 
 .title {
-    font-family: 'Yeseva One', cursive;}
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+span {
+    color: white;
+}
 
 .typed-text {
 	padding: 0 0 0 3px;
 	background-color: lightsalmon;
 	&::before { font-weight: 600; }
 	@include typed(
-		"Software Engineer", "Full-Stack Developer", "Software Developer",
+		"Software Engineer!", "Full-Stack Developer!", "Programmer!", "Software Developer!", 
 		2,
 		(caret-width: 2px, caret-space: 2px)
 	);
 }
 
 .greeting {
-    font-family: 'Yeseva One', cursive;}
+    font-family: 'Lato', sans-serif;
+}
 
 @keyframes rainbow {
     0% {

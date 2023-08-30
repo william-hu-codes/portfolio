@@ -1,13 +1,14 @@
 footer {
     /* background-color: rgb(220, 220, 220); */
-    background-color: lightcyan;
+    background-color: rgba(232, 227, 215, 1.0);
     margin-top: auto;
     color: black;
     /* position: fixed; */
     bottom: 0;
     width: 100%;
     height: 80px;
-    font-family: 'Yeseva One', cursive;    gap: 20px;
+    font-family: 'Lato', sans-serif;
+    gap: 15px;
 }
 
 .social-media-ctr {
@@ -15,18 +16,4 @@ footer {
     gap: 15px;
     justify-content: center;
     align-items: center;
-}
-
-.social-media-icon {
-    width: 40px;
-    height: auto;
-    /* background-color: white; */
-    border-radius: 50%;
-}
-
-.social-media-icon:hover {
-    background-color: salmon ;
-    width: 50px;
-    height: auto;
-    transition: 0.5s;
 }

@@ -1,12 +1,12 @@
 .app {
-  background-color: lightslategray;
+  background-color: rgba(248, 223, 219, 1.0);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
 
     /* source: https://moderncss.dev/generating-font-size-css-rules-and-creating-a-fluid-type-scale/ */
     min-height: 100vh;
-    color: white;
+    color: black;
 }
 
 p,
