@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "./Header.css"
+import {GiSpermWhale} from "react-icons/gi"
 
 export default function Header(props) {
 
@@ -8,7 +9,8 @@ export default function Header(props) {
           {/* <h1>My Portfolio</h1> */}
           <nav>
             <Link className="link logo-ctr" to="/" >
-              <img className="logo" src="https://i.imgur.com/JqRF8Em.png" alt="William Hu Logo" />
+              {/* <img className="logo" src="https://i.imgur.com/JqRF8Em.png" alt="William Hu Logo" /> */}
+              < GiSpermWhale style={{color: "black"}} size={60} />
             </Link>
             <Link className="link" to="/">
               <h3 className="nav-text" >// HOME</h3>
