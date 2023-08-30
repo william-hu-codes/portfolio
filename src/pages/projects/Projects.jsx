@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Projects.css"
 import images from "../../assets/images";
+import ProjectCards from "./ProjectCards";
 
 function Projects(props) {
   // create state to hold projects
@@ -19,36 +20,28 @@ function Projects(props) {
   // make an initial call for the data inside a useEffect, so it only happens once on component load
   useEffect(() => { getProjectsData() }, []);
 
+  const projectsList = projects?.map((project, idx) => <ProjectCards project={project} key={idx} />)
+  console.log(projectsList)
+
   // define a function that will return the JSX needed once we get the data
   function loaded() {
-    return projects.map((project) => (
-      <div className="project-card" >
-        <h2>{project.name}</h2>
-        <img className="project-img" src={project.image} />
-        <div classNamed="buttons-div flex-ctr-ctr" >
-          <a href={project.git}>
-            <button>// GitHub</button>
-          </a>
-          <a href={project.live}>
-            <button>// Live Site</button>
-          </a>
+    return (
+      <div className="projects">
+        <div className="projects-grid-ctr" >
+        {projectsList}
         </div>
       </div>
-    ));
+    )
   };
 
-  if (!projects) {
-    return <h1>Loading...</h1>
-  }
-
-  return (
-    <div className="projects">
-      <div className="projects-grid-ctr" >
-      {loaded()}
-      </div>
-    </div>
-  )
-  // return projects ? loaded() : <h1>Loading...</h1>;
+  // return (
+  //   <div className="projects">
+  //     <div className="projects-grid-ctr" >
+  //     {loaded()}
+  //     </div>
+  //   </div>
+  // )
+  return projectsList ? loaded() : <h1>Loading...</h1>;
 }
 
 export default Projects;

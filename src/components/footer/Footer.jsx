@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa"
 
 
 function Footer(props) {
-  console.log(images)
+  // console.log(images)
   
     return (
       <footer className="flex-ctr-ctr">

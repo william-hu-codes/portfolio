@@ -18,6 +18,7 @@
 .projects {
     padding: 2rem;
     height: 85vh;
+    margin-top: 1.5rem;
 }
 
 .projects-grid-ctr {
@@ -26,19 +27,32 @@
     gap: 20px;
 }
 
+.project-card {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.project-card h2 {
+    background-color: rgba(232, 227, 215, 1);
+}
+
+.project-img-div {
+    background-color: whitesmoke;
+}
+
 img.project-img {
     width: 300px;
     height: auto;
 
 }
 
-.project-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* display: grid;
-    grid-template-rows: 1fr 3fr 1fr; */
-    border: 1px solid black;
-    border-radius: 10px;
+.projects .buttons-div {
+    background-color: rgba(232, 227, 215, 1)
 }
