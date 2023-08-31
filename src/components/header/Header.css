@@ -11,8 +11,11 @@
 
 header {
     background-color: rgba(248, 223, 219, 1.0);
-    /* background-color: rgba(246, 246, 244, 1.0); */
-    height: 5vh;
+    background-color: var(--sand-color);
+    height: auto;
+    width: 100vw;
+    position: fixed;
+    display: inline;
 }
 
 
@@ -24,7 +27,7 @@ nav {
     /* width: 90%; */
 }
 
-.nav-text {
+/* .nav-text {
     text-decoration: none;
     padding: 5px;
     color: black;
@@ -33,15 +36,31 @@ nav {
 .nav-text:hover {
     background-color: lightsalmon;
     color: white; 
-}
+} */
 
 .logo-ctr {
     align-self: center;
     justify-self: flex-start;
     margin-right: auto;
+    padding-left: 10px;
 }
 
 .link {
     text-decoration: none;
-    margin: auto
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+
+}
+
+.link:hover {
+    background-color: lightsalmon;
+    color: white; 
+}
+
+.link .active {
+    background-color: lightsalmon;
+    color: white;
 }

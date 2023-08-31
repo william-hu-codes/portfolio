@@ -9,20 +9,22 @@ export default function Header(props) {
 
     return (
         <header>
-          {/* <h1>My Portfolio</h1> */}
           <nav>
-            <NavHashLink className="link logo-ctr" smooth to="/#home" >
+            <NavHashLink className="logo-ctr" smooth to="/#home" activeClassName="selected" >
               {/* <img className="logo" src="https://i.imgur.com/JqRF8Em.png" alt="William Hu Logo" /> */}
               < GiSpermWhale className="logo" />
             </NavHashLink>
-            <NavHashLink className="link" smooth to="/#home">
-              <h3 className="nav-text" >// HOME</h3>
+            <NavHashLink className="link" smooth to="/#home" activeClassName="selected" >
+              {/* <h3 className="nav-text" >// HOME</h3> */}
+              // HOME
             </NavHashLink>
-            <NavHashLink className="link" smooth to="/#about">
-              <h3 className="nav-text" >// ABOUT</h3>
+            <NavHashLink className="link" smooth to="/#about" activeClassName="selected" >
+              {/* <h3 className="nav-text" >// ABOUT</h3> */}
+              // ABOUT
             </NavHashLink>
-            <NavHashLink className="link" smooth to="/#projects">
-              <h3 className="nav-text" >// PROJECTS</h3>
+            <NavHashLink className="link" smooth to="/#projects" activeClassName="selected" >
+              {/* <h3 className="nav-text" >// PROJECTS</h3> */}
+              // PROJECTS
             </NavHashLink>
           </nav>
         </header>

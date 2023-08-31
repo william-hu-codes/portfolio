@@ -1,7 +1,58 @@
+.about-ctr-main {
+    background-color: var(--sweet-beige-color);
+    height: 110vh;
+    padding-top: 6rem;
+}
+
 .about-ctr {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
 
+/* .about-title {
+    margin-top: 
+} */
+
+.headshot > img {
+    width: 25vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80vw;
+    padding-top: 3rem;
+    gap: 2rem;
+
+    /* justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center; */
+    
+    border: 1px solid red;
+}
+
+.headshot {
+    grid-column: 1 / span 1;
+    grid-row: 1/ span 2;
+}
+
+.skills {
+    border: 1.5px solid black;
+    border-radius: 25px;
+}
+
+.education {
+    border: 1.5px solid black;
+    border-radius: 25px;
+}
+
+.bio {
+    grid-column: 2 / span 2;
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { IoRibbonSharp } from "react-icons/io5"
 import "./About.css"
 
 function About(props) {
@@ -17,11 +18,28 @@ function About(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
-    <div className="about-ctr" id="about" >
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <p>{about.bio}</p>
-    </div>
+    <section className="about-ctr-main" id="about">
+        <h1 className="flex-ctr-ctr">ABOUT ME</h1>
+        <h3 className="flex-ctr-ctr">// GET TO KNOW MORE</h3>
+      <div className="about-ctr" >
+        <div className="about-title">
+        </div>
+        <div className="about-grid">
+          <div className="headshot flex-ctr-ctr">
+            <img src="https://i.imgur.com/EGzaLcX.png" alt="William Hu Headshot" />
+          </div>
+          <div className="education flex-ctr-ctr-col">
+            <IoRibbonSharp className="ribbon-icon"/>
+          </div>
+          <div className="skills flex-ctr-ctr-col">
+            skills
+          </div>
+          <div className="bio">
+            <p>{about.bio}</p>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 
   // if data arrives return the result of loaded, if not, an h1 that says loading
