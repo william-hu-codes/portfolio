@@ -17,7 +17,7 @@ function About(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
-    <div className="about-ctr" >
+    <div className="about-ctr" id="about" >
       <h2>{about.name}</h2>
       <h3>{about.email}</h3>
       <p>{about.bio}</p>
