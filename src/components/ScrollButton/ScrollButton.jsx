@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { FaHandPointUp } from "react-icons/fa"
 import "./ScrollButton.css"
 
 export default function ScrollButton() {
@@ -27,7 +28,7 @@ export default function ScrollButton() {
             });
         }}
         >
-        👆
+        <FaHandPointUp id="scroll-up-icon" />
         </div>
     );
     

@@ -11,9 +11,13 @@ export default function Main() {
     return (
         <main>
             <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/about" element={<About />} />
+                <Route exact path="/" element={ 
+                    <>
+                        <Home id="home" />
+                        <About id="about" />
+                        <Projects id="projects" />
+                    </>
+                }/>
                 <Route path="/*" element={<Error />} />
             </Routes>
         </main>

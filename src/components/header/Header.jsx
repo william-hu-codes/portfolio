@@ -1,4 +1,7 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
+import { NavHashLink } from "react-router-hash-link"
+// import { HashLink } from "react-router-hash-link"
+
 import "./Header.css"
 import {GiSpermWhale} from "react-icons/gi"
 
@@ -8,19 +11,19 @@ export default function Header(props) {
         <header>
           {/* <h1>My Portfolio</h1> */}
           <nav>
-            <Link className="link logo-ctr" to="/" >
+            <NavHashLink className="link logo-ctr" smooth to="/#home" >
               {/* <img className="logo" src="https://i.imgur.com/JqRF8Em.png" alt="William Hu Logo" /> */}
               < GiSpermWhale className="logo" />
-            </Link>
-            <Link className="link" to="/">
+            </NavHashLink>
+            <NavHashLink className="link" smooth to="/#home">
               <h3 className="nav-text" >// HOME</h3>
-            </Link>
-            <Link className="link" to="/about">
+            </NavHashLink>
+            <NavHashLink className="link" smooth to="/#about">
               <h3 className="nav-text" >// ABOUT</h3>
-            </Link>
-            <Link className="link" to="/projects">
+            </NavHashLink>
+            <NavHashLink className="link" smooth to="/#projects">
               <h3 className="nav-text" >// PROJECTS</h3>
-            </Link>
+            </NavHashLink>
           </nav>
         </header>
     );

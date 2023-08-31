@@ -1,17 +1,17 @@
 @import 'typed';
 
-.home-icon {
-    color: lightsalmon;
-    font-size: 100px;
-    padding-left: 20px;
-}
-
 .home-ctr {
-    height: 85vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 10%;
+}
+
+.home-icon {
+    color: lightsalmon;
+    font-size: 100px;
+    padding-left: 20px;
 }
 
 .home-ctr h1 {
