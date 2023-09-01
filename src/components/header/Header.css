@@ -60,7 +60,7 @@ nav {
     color: white; 
 }
 
-.link .active {
+.link .selected {
     background-color: lightsalmon;
     color: white;
 }

@@ -15,9 +15,9 @@ export default function ProjectCards({project, idx}) {
               <button>// Live Site</button>
             </a>
           </div>
-          <div className="tools-list">
+          {/* <div className="tools-list">
             {toolsList}
-          </div>
+          </div> */}
         </div>
       )
     }

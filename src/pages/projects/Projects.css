@@ -1,5 +1,5 @@
 
-.projects button {
+.projects-ctr-main button {
     margin: 5px;
     height: 3rem;
     width: 7rem;
@@ -9,7 +9,7 @@
     border: 1px solid black;
 }
 
-.projects button:hover {
+.projects-ctr-main button:hover {
     background-color: lightsalmon;
     color: white;
     font-size: 18px;
@@ -21,16 +21,17 @@
     background-color: rgba(232, 227, 215, 1)
 } */
 
-.projects {
-    padding: 2rem;
-    margin-top: 1.5rem;
-    height: 100vh;
+.projects-ctr-main {
+    height: 110vh;
+    padding-top: 5rem;;
+    background-color: var(--terracotta-color)
 }
 
 .projects-grid-ctr {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
+    padding-top: 3rem;
 }
 
 .project-card {
@@ -65,11 +66,11 @@ img.project-img {
 
 }
 
-.projects .buttons-div {
+.projects-ctr-main .buttons-div {
     background-color: whitesmoke;
 }
 
-.tools-list {
+/* .tools-list {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -78,19 +79,17 @@ img.project-img {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 10px;
-}
+} */
 
-.tools-list p {
-    /* background-color: rgba(232, 227, 215, 1); */
+/* .tools-list p {
     background-color: rgba(208, 190, 177, 1.0);
     border-radius: 15px;
     padding: 5px;
     border: 1px solid black;
     color: black;
-    /* font-weight: bold; */
-}
+} */
 
-.tools-list p:hover {
+/* .tools-list p:hover {
     font-size: 20px;
     transition: 1s;
-}
+} */
