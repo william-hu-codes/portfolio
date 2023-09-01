@@ -1,5 +1,5 @@
 .about-ctr-main {
-    background-color: var(--sweet-beige-color);
+    background-color: var(--buffed-beige-color);
     height: 110vh;
     padding-top: 6rem;
 }
@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 6rem;
 }
 
 /* .about-title {
@@ -17,7 +17,7 @@
 } */
 
 .headshot > img {
-    width: 25vw;
+    width: 28vw;
     height: auto;
     border-radius: 25px;
 }
@@ -26,16 +26,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 80vw;
-    padding-top: 3rem;
-    gap: 2rem;
+    width: 90vw;
+    gap: 1rem;
 
     /* justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
     align-items: center; */
     
-    border: 1px solid red;
 }
 
 .headshot {
@@ -44,15 +42,39 @@
 }
 
 .skills {
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
     border-radius: 25px;
+    background-color: var(--sand-color);
+
 }
 
 .education {
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
     border-radius: 25px;
+    gap: 0.30rem;
+    background-color: var(--sand-color);
+}
+
+.education .ribbon-icon {
+    font-size: 35px;
+}
+
+.education h4 {
+    font-size: 1.25rem;
+}
+
+.education p {
+    font-size: 1.15rem;
 }
 
 .bio {
     grid-column: 2 / span 2;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    /* border: 1.5px solid black; */
+    border-radius: 25px;
+    padding: 10px;
+    background-color: var(--sand-color);
+
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { IoSchoolSharp } from "react-icons/io5"
 import { IoRibbonSharp } from "react-icons/io5"
 import "./About.css"
 
@@ -25,11 +26,19 @@ function About(props) {
         <div className="about-title">
         </div>
         <div className="about-grid">
-          <div className="headshot flex-ctr-ctr">
+          <div className="headshot">
             <img src="https://i.imgur.com/EGzaLcX.png" alt="William Hu Headshot" />
           </div>
           <div className="education flex-ctr-ctr-col">
-            <IoRibbonSharp className="ribbon-icon"/>
+            <IoSchoolSharp className="ribbon-icon"/>
+            <div className="school flex-ctr-ctr-col">
+              <h4>Bachelor of Science in Nursing (BScN)</h4>
+              <p>// University of Western Ontario</p>
+            </div>
+            <div className="school flex-ctr-ctr-col">
+              <h4>Software Engineering Immersive Certificate</h4>
+              <p>// General Assembly</p>
+            </div>
           </div>
           <div className="skills flex-ctr-ctr-col">
             skills
