@@ -2,6 +2,7 @@ import "./Home.scss"
 // import { HiOutlineComputerDesktop } from "react-icons/hi2"
 // import { MdComputer } from "react-icons/md"
 import { TbDeviceImacCode } from "react-icons/tb"
+import { HiDownload } from "react-icons/hi"
 import { Link } from "react-router-dom";
 
 
@@ -21,7 +22,7 @@ function Home(props) {
       {/* <h4>and Registered Nurse</h4> */}
       <div>
         <Link to="/projects" >
-          <button>Learn more about me →</button>
+          <button><div className="flex-ctr-ctr" >Download my CV <HiDownload /></div></button>
         </Link>
       </div>
     </div>
