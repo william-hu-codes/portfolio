@@ -26,7 +26,7 @@ function Projects(props) {
   // define a function that will return the JSX needed once we get the data
   function loaded() {
     return (
-      <section className="projects-ctr-main" id="projects">
+      <section className="projects-ctr-main flex-ctr-ctr-col" id="projects">
         <h1 className="flex-ctr-ctr">My Projects</h1>
         <div className="projects-grid-ctr" >
           {projectsList}

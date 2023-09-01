@@ -3,10 +3,10 @@ export default function ProjectCards({project, idx}) {
 
     return (
         <div className="project-card" key={idx} >
-          <h2 className="flex-ctr-ctr" >{project.name}</h2>
           <div className="flex-ctr-ctr project-img-div">
             <img className="project-img" src={project.image} />
           </div>
+          <h2 className="flex-ctr-ctr" >{project.name}</h2>
           <div className="buttons-div flex-ctr-ctr" >
             <a href={project.git}>
               <button>// GitHub</button>

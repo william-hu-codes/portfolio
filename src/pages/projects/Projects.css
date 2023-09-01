@@ -1,10 +1,46 @@
+.projects-ctr-main {
+    height: 110vh;
+    /* padding-top: 2rem;; */
+    background-color: var(--terracotta-color);
+    /* border: 1px solid red; */
+}
+
+.projects-grid-ctr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 3rem;
+    width: 90vw;
+    border: 2px solid red;
+}
+
+img.project-img {
+    width: 20vw;
+    height: auto;
+    padding-top: 30px;
+}
+
+.project-card {
+    border-radius: 25px;
+    background-color: var(--sand-color);
+
+}
+
+.project-card h2 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+/* .project-img-div {
+    background-color: rgba(245, 241, 237, 1.0);
+} */
+
 
 .projects-ctr-main button {
-    margin: 5px;
+    margin: 10px;
     height: 3rem;
     width: 7rem;
     border-radius: 10px;
-    background-color: rgba(232, 227, 215, 1);
     font-size: 15px;
     border: 1px solid black;
 }
@@ -17,79 +53,7 @@
     cursor:pointer
 }
 
-/* h2 {
-    background-color: rgba(232, 227, 215, 1)
-} */
-
-.projects-ctr-main {
-    height: 110vh;
-    padding-top: 5rem;;
-    background-color: var(--terracotta-color)
-}
-
-.projects-grid-ctr {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding-top: 3rem;
-}
-
-.project-card {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-
-    display: grid;
-    grid-template-rows: 1fr 3fr 1fr 1ft;
-    border: 1px solid black;
-    /* border-radius: 10px; */
-}
-
-.project-card h2 {
-    /* background-color: rgba(232, 227, 215, 1); */
-    /* background-color: rgba(255, 171, 138, 0.689); */
-    background-color: rgba(245, 241, 237, 1.0);
-    /* border-top-left-radius: 10px; */
-    /* border-top-right-radius: 10px; */
-}
-
-.project-img-div {
-    /* background-color: rgba(232, 227, 215, 1); */
-    background-color: rgba(245, 241, 237, 1.0);
-}
-
-img.project-img {
-    width: 400px;
-    height: auto;
-    padding: 20px;
-
-}
-
 .projects-ctr-main .buttons-div {
-    background-color: whitesmoke;
-}
-
-/* .tools-list {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    background-color: whitesmoke;
-    border-top: 1px solid black;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 10px;
-} */
-
-/* .tools-list p {
-    background-color: rgba(208, 190, 177, 1.0);
-    border-radius: 15px;
-    padding: 5px;
-    border: 1px solid black;
-    color: black;
-} */
-
-/* .tools-list p:hover {
-    font-size: 20px;
-    transition: 1s;
-} */
+    padding-bottom: 10px;
+}

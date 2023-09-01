@@ -20,8 +20,8 @@ function About(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
     <section className="about-ctr-main" id="about">
-        <h1 className="flex-ctr-ctr">ABOUT ME</h1>
         <h3 className="flex-ctr-ctr">// GET TO KNOW MORE</h3>
+        <h1 className="flex-ctr-ctr">ABOUT ME</h1>
       <div className="about-ctr" >
         <div className="about-title">
         </div>
