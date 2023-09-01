@@ -9,9 +9,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    margin-top: 3rem;
+    margin-top: 4rem;
     width: 90vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 img.project-img {
