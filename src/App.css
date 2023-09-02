@@ -43,9 +43,9 @@ h5 {
   font-size: 0.667rem;
 }
 
-main{
+/* main{
   padding: 4rem 0 6rem 0;
-}
+} */
 
 /* section {
   margin: 2rem 0 4rem 0;
@@ -58,6 +58,20 @@ main{
   margin: 0 auto;
 }
 
+/* TABLET - fonts 85% of desktop size */
+@media only screen and (max-width: 935px) {
+  h1 {
+    font-size: 2.93rem;
+  }
+  h2 {
+    font-size: 1.95rem;
+  }
+  h3 {
+    font-size: 1.30rem;
+  }
+}
+
+/* MOBILE - fonts 75% of desktop size */
 @media only screen and (max-width: 615px) {
   h1 {
     font-size: 2.7rem;

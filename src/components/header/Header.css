@@ -65,6 +65,17 @@ nav {
     color: white;
 }
 
+/* TABLET 85% of desktop size */
+@media only screen and (max-width: 935px) {
+    .logo {
+        font-size: 52.17px;
+    }
+    .link {
+        font-size: 1.30rem;
+    }
+}
+
+/* PHONE 75% of desktop size */
 @media only screen and (max-width: 615px) {
     .logo {
         font-size: 48px;
