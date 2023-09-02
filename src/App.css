@@ -57,3 +57,15 @@ main{
   width: 90%;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 615px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  h2 {
+    font-size: 1.80rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+}

@@ -8,7 +8,7 @@
 .projects-grid-ctr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
     margin-top: 4rem;
     width: 90vw;
     /* border: 2px solid red; */
@@ -83,6 +83,8 @@ img.project-img {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         margin-bottom: 50px;
-
+    }
+    img.project-img {
+        width: 70vw;
     }
 }
