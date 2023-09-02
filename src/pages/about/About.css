@@ -64,6 +64,15 @@
     font-size: 1.15rem;
 }
 
+.skills-item-ctr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+}
+
 .bio {
     grid-column: 2 / span 2;
     font-size: 1.15rem;

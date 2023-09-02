@@ -1,0 +1,6 @@
+.skill-item {
+    background-color: var(--latte-color);
+    color: white;
+    border-radius: 25px;
+    padding: 3px;
+}
