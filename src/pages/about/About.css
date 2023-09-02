@@ -27,7 +27,7 @@
     grid-template-rows: 1fr 1fr;
     width: 90vw;
     gap: 1rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .headshot {
