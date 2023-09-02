@@ -64,3 +64,12 @@ nav {
     background-color: lightsalmon;
     color: white;
 }
+
+@media only screen and (max-width: 615px) {
+    .logo {
+        font-size: 48px;
+    }
+    .link {
+        font-size: 1.2rem;
+    }
+}

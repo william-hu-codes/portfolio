@@ -72,14 +72,20 @@ span {
 }
 
 @media only screen and (max-width: 615px) {
+    .home-ctr {
+        height: 100vh;
+    }
     .home-ctr h1 {
-        font-size: 70px;
+        font-size: 62.5px;
     }
     .home-ctr h2 {
-        font-size: 40px;
+        font-size: 35.7px;
     }
     .home-ctr h3 {
-        font-size: 25px;
+        font-size: 22.32px;
+    }
+    .intro-container {
+        padding-top: 20vh;
     }
 }
 
