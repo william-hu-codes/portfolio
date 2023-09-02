@@ -22,7 +22,7 @@ const [showsScrolBtn, setShowScrolBtn] = useState(false);
       window.addEventListener("scroll", handleButtonVisibility);
     };
   }, []);
-  console.log(showsScrolBtn)
+  // console.log(showsScrolBtn)
 
   return (
     <div className="App">

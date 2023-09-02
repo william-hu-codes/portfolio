@@ -1,5 +1,5 @@
 export default function ProjectCards({project, idx}) {
-  const toolsList = project.tools.map((tool, idx) => <p key={idx} >{tool}</p>)
+  const toolsList = project.tools.map((tool, index) => <p key={index} >{tool}</p>)
 
     return (
         <div className="project-card" key={idx} >

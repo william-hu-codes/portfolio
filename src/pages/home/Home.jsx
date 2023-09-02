@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Home(props) {
   return (
-    <div className="home-ctr" id="home">
+    <div className="home-ctr" id="home" >
       {/* <HiOutlineComputerDesktop className="home-icon" /> */}
       {/* <MdComputer className="home-icon" /> */}
       <div className="intro-container">

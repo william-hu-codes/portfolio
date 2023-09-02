@@ -27,6 +27,7 @@ function Projects(props) {
   function loaded() {
     return (
       <section className="projects-ctr-main flex-ctr-ctr-col" id="projects">
+        <h3>// TAKE A LOOK AT</h3>
         <h1 className="flex-ctr-ctr">My Projects</h1>
         <div className="projects-grid-ctr" >
           {projectsList}

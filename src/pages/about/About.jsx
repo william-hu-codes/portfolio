@@ -19,21 +19,21 @@ function About(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
-    <section className="about-ctr-main" id="about">
+    <section className="about-ctr-main flex-ctr-ctr-col" id="about" >
         <h3 className="flex-ctr-ctr">// GET TO KNOW MORE</h3>
         <h1 className="flex-ctr-ctr">ABOUT ME</h1>
       <div className="about-ctr" >
         <div className="about-title">
         </div>
         <div className="about-grid">
-          <div className="headshot">
+          <div className="headshot flex-ctr-ctr">
             <img src="https://i.imgur.com/EGzaLcX.png" alt="William Hu Headshot" />
           </div>
           <div className="education flex-ctr-ctr-col">
-            <IoSchoolSharp className="ribbon-icon"/>
+            <IoSchoolSharp className="react-icon"/>
             <div className="school flex-ctr-ctr-col">
               <h4>Bachelor of Science in Nursing (BScN)</h4>
-              <p>// University of Western Ontario</p>
+              <p>// Western University</p>
             </div>
             <div className="school flex-ctr-ctr-col">
               <h4>Software Engineering Immersive Certificate</h4>
@@ -41,7 +41,7 @@ function About(props) {
             </div>
           </div>
           <div className="skills flex-ctr-ctr-col">
-            skills
+            <IoRibbonSharp className="react-icon"/> Skills
           </div>
           <div className="bio">
             <p>{about.bio}</p>

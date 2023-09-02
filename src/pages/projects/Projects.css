@@ -51,8 +51,8 @@ img.project-img {
 }
 
 .projects-ctr-main button:hover {
-    background-color: lightsalmon;
-    color: white;
+    background-color: var(--pearl-color);
+    /* color: white; */
     font-size: 18px;
     transition: 0.15s;
     cursor:pointer
@@ -61,4 +61,18 @@ img.project-img {
 .projects-ctr-main .buttons-div {
     display: flex;
     padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 935px) {
+    .projects-grid-ctr {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .projects-grid-ctr {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }
