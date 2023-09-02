@@ -71,8 +71,18 @@ img.project-img {
 }
 
 @media only screen and (max-width: 615px) {
+    .projects-ctr-main {
+        height: auto;
+    }
+
+    .projects-ctr-main > h3 {
+        margin-top: 50px;
+    }
+
     .projects-grid-ctr {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        margin-bottom: 50px;
+
     }
 }
