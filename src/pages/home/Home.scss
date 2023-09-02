@@ -72,7 +72,15 @@ span {
 }
 
 @media only screen and (max-width: 615px) {
-    
+    .home-ctr h1 {
+        font-size: 70px;
+    }
+    .home-ctr h2 {
+        font-size: 40px;
+    }
+    .home-ctr h3 {
+        font-size: 25px;
+    }
 }
 
 @keyframes rainbow {
