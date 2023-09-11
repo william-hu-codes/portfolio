@@ -77,9 +77,11 @@ span {
 }
 
 // TABLET - fonts 
-// @media only screen and (max-width: 935px) {
-
-// }
+@media only screen and (max-width: 935px) {
+    .home-ctr {
+        height: 100vh;
+    }
+}
 
 // MOBILE - fonts 60% of desktop size
 @media only screen and (max-width: 615px) {
