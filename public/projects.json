@@ -1,4 +1,3 @@
-
 [
     {
       "name": "Tic-Tac-Toe",
@@ -22,11 +21,16 @@
         "live": "https://wavelength-medical-records-50e817316e66.herokuapp.com/?fbclid=IwAR3qqvgpBvcA0vYMgNmVAxtsXeKd3JTlKcfBz8ps_Fxcilj5tG2uiFxbOaw",
         "git": "https://github.com/william-hu-codes/electronic-medical-record",
         "image": "https://i.imgur.com/2VFrfrL.png",
-        "tools": ["JavaScript", "CSS", "HTML", "Mongoose", "MongoDB", "Express", "Node"],
+        "tools": ["JavaScript", "CSS", "HTML", "Mongoose", "MongoDB", "Express", "Node", "Heroku"],
         "description": "Fully functional electronic medical record with user authentication using Google OAuth. Integrates OpenAI to automatically generate discharge summaries by parsing through all of the patient's existing progress notes."
       },
       {
-        "name": 
+        "name": "AKI Consult",
+        "live": "https://renalconsults.com/aki/",
+        "git": "https://github.com/rmhayden/aki-consult",
+        "image": "https://i.imgur.com/blz6L7e.png",
+        "tools": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI", "Heroku", "BlueHost"],
+        "description": "App designed to empower nephrologists and healthcare providers with a cutting-edge tool for generating comprehensive consult summaries and diagnostic impressions effortlessly. With AKI Consult, you can input objective patient data, and watch as our intelligent system compiles it into a succinct and informative clinical consult note, saving time and ensuring accuracy."
       }
   ]
   
