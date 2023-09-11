@@ -5,7 +5,9 @@
       "git": "https://github.com/william-hu-codes/space-invaders",
       "image": "https://i.imgur.com/o3BzO1D.png",
       "tools": ["JavaScript", "CSS", "HTML"],
-      "description": "Arcade classic where you must defend Earth from relentless waves of alien invaders by shooting them down before they reach the planet's surface."
+      "description": "Arcade classic where you must defend Earth from relentless waves of alien invaders by shooting them down before they reach the planet's surface.",
+      "developer": "Solo Developer",
+      "date": "July 2023"
 
     },
     {
@@ -14,7 +16,9 @@
         "git": "https://github.com/william-hu-codes/electronic-medical-record",
         "image": "https://i.imgur.com/2VFrfrL.png",
         "tools": ["JavaScript", "CSS", "HTML", "Mongoose", "MongoDB", "Express", "Node", "Heroku"],
-        "description": "Fully functional electronic medical record with user authentication using Google OAuth. Integrates OpenAI to automatically generate discharge summaries by parsing through the patient's existing progress notes."
+        "description": "Fully functional electronic medical record with user authentication using Google OAuth. Integrates OpenAI to automatically generate discharge summaries by parsing through the patient's existing progress notes.",
+        "developer": "Collaborative Developer",
+        "date": "August 2023"
       },
       {
         "name": "AKI Consult",
@@ -22,7 +26,9 @@
         "git": "https://github.com/rmhayden/aki-consult",
         "image": "https://i.imgur.com/blz6L7e.png",
         "tools": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI", "Heroku", "BlueHost"],
-        "description": "App designed to empower nephrologists and healthcare providers with a cutting-edge tool for generating comprehensive consult summaries and diagnostic impressions effortlessly."
+        "description": "App designed to empower nephrologists and healthcare providers with a cutting-edge tool for generating comprehensive consult summaries and diagnostic impressions effortlessly.",
+        "developer": "Collaborative Developer",
+        "date": "August 2023"
       },
       {
         "name": "Tic-Tac-Toe",
@@ -30,7 +36,9 @@
         "git": "https://github.com/william-hu-codes/tic-tac-toe",
         "image": "https://i.imgur.com/Zx20dHx.png",
         "tools": ["JavaScript", "CSS", "HTML"],
-        "description": "Classic two-player strategy game where the objective is to form a line of three of your symbols in a row, either horizontally, vertically, or diagonally on a 3x3 grid."
+        "description": "Classic two-player strategy game where the objective is to form a line of three of your symbols in a row, either horizontally, vertically, or diagonally on a 3x3 grid.",
+        "developer": "Solo Developer",
+        "date": "July 2023"
       }
   ]
   

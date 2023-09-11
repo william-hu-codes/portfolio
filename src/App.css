@@ -58,6 +58,10 @@ h5 {
   margin: 0 auto;
 }
 
+text-ctr {
+  text-align: center;
+}
+
 /* TABLET - fonts 85% of desktop size */
 @media only screen and (max-width: 935px) {
   h1 {

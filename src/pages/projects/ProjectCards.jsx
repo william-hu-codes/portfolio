@@ -10,6 +10,7 @@ export default function ProjectCards({project, idx}) {
               <div className="flex-ctr-ctr tools-list-ctr">
                 {toolsList}
               </div>
+              <h4 className="flex-ctr-ctr">{project.developer} | {project.date}</h4>
             </div>
           </div>
           <h2 className="flex-ctr-ctr" >{project.name}</h2>

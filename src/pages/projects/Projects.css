@@ -49,13 +49,12 @@ img.project-img {
 
 .project-img-div:hover .project-tools {
     display: block;
-    transition: 0.5s;
+    /* transition: 1s; */
 }
 
 .project-img-div:hover .project-img {
     display: none;
-    transition: 0.5s;
-
+    /* transition: 1s; */
 }
 
 .projects-ctr-main button {
@@ -99,7 +98,7 @@ img.project-img {
 .tools-list-ctr {
     flex-wrap: wrap;
     gap: 5px;
-    margin-top: 25px;
+    margin: 25px;
 }
 
 @media only screen and (max-width: 935px) {
