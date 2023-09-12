@@ -12,7 +12,7 @@
     },
     {
         "name": "Wavelength: EMR",
-        "live": "https://wavelength-medical-records-50e817316e66.herokuapp.com/?fbclid=IwAR3qqvgpBvcA0vYMgNmVAxtsXeKd3JTlKcfBz8ps_Fxcilj5tG2uiFxbOaw",
+        "live": "https://wavelengthemr.com",
         "git": "https://github.com/william-hu-codes/electronic-medical-record",
         "image": "https://i.imgur.com/2VFrfrL.png",
         "tools": ["JavaScript", "CSS", "HTML", "Mongoose", "MongoDB", "Express", "Node", "Heroku"],
