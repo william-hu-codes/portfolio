@@ -109,6 +109,10 @@ img.project-img {
     img.project-img {
         width: 30vw;
     }
+    .project-tools {
+        width: 30vw;
+        height: 30vw;
+    }
 }
 
 @media only screen and (max-width: 615px) {
@@ -127,5 +131,9 @@ img.project-img {
     }
     img.project-img {
         width: 70vw;
+    }
+    .project-tools {
+        width: 70vw;
+        height: 70vw;
     }
 }
