@@ -1,9 +1,10 @@
 import "./Home.scss"
 // import { HiOutlineComputerDesktop } from "react-icons/hi2"
 // import { MdComputer } from "react-icons/md"
+import resume from "../../assets/files/william-hu-resume.pdf"
 import { TbDeviceImacCode } from "react-icons/tb"
 import { HiDownload } from "react-icons/hi"
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 
 function Home(props) {
@@ -17,7 +18,7 @@ function Home(props) {
       <h1 className="name">William Hu</h1>
       <h2 className="title">I am a <span className="typed-text"></span></h2>
       <button>
-        <a href="../../assets/files/william-hu-resume.pdf" download>
+        <a href={resume} download>
           <div className="flex-ctr-ctr" >
             Download my CV <HiDownload />
           </div>
