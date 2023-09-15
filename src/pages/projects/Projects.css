@@ -28,7 +28,7 @@
 
 img.project-img {
     width: 20vw;
-    height: auto;
+    height: 20vw;
     margin-top: 30px;
     border-radius: 25px;
     /* border: 2px solid red; */
@@ -108,6 +108,7 @@ img.project-img {
     }
     img.project-img {
         width: 30vw;
+        height: 30vw;
     }
     .project-tools {
         width: 30vw;
@@ -131,6 +132,7 @@ img.project-img {
     }
     img.project-img {
         width: 70vw;
+        height: 70vw;
     }
     .project-tools {
         width: 70vw;
