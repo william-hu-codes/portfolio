@@ -89,9 +89,14 @@
     .about-ctr-main {
         height: auto;
     }
+    .about-ctr-main .intro {
+        margin-top: 50px;
+    }
     .about-grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        margin-bottom: 50px;
+
     }
     .headshot {
         grid-column: 1 / span 2;
