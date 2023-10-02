@@ -64,6 +64,10 @@
     font-size: 1.15rem;
 }
 
+.school {
+    text-align: center;
+}
+
 .skills-item-ctr {
     display: flex;
     flex-wrap: wrap;
@@ -82,16 +86,20 @@
     border-radius: 25px;
     padding: 10px;
     background-color: var(--sand-color);
-
 }
 
 @media only screen and (max-width: 935px) {
     .about-ctr-main {
         height: auto;
     }
+    .about-ctr-main .intro {
+        margin-top: 50px;
+    }
     .about-grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        margin-bottom: 50px;
+
     }
     .headshot {
         grid-column: 1 / span 2;
