@@ -7,7 +7,7 @@
 .logo:hover {
     color: lightsalmon;
     font-size: 70px;
-    transition: 0.75s;
+    transition: 0.50s;
 }
 
 header {
@@ -25,7 +25,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
+    height: 60px;
     /* width: 90%; */
 }
 
@@ -53,13 +54,17 @@ nav {
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
-    padding: 5px;
+    /* padding: 5px; */
+    transition: 0.25s;
 
 }
 
 .link:hover {
-    background-color: lightsalmon;
-    color: white; 
+    /* background-color: lightsalmon; */
+    /* color: white;  */
+    font-size: 27px;
+    transition: 0.25s;
+    color: lightsalmon;
 }
 
 .link .selected {

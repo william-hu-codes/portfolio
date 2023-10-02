@@ -17,16 +17,17 @@ function Home(props) {
       </div>
       <h1 className="name">William Hu</h1>
       <h2 className="title">I am a <span className="typed-text"></span></h2>
-      <button>
-        <a href={resume} download>
-          <div className="flex-ctr-ctr" >
-            Download my CV <HiDownload />
+      <a className="resume-download" href={resume} download>
+        <button>
+          <div className="flex-ctr-ctr">
+            <p>Download my CV</p> 
+            <HiDownload />
           </div>
-        </a>
-      </button>
+        </button>
+      </a>
     </div>
   )
-}
   
+}
   export default Home;
   
