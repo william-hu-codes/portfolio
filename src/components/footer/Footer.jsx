@@ -20,7 +20,7 @@ function Footer(props) {
               <a href="https://github.com/william-hu-codes" target="_blank" >
                 <FaGithub className="social-media-icon"/>
               </a>
-              <a href="mailto:william.hu307@gmail.com">
+              <a href="mailto:william.hu307@gmail.com" target="_blank">
                 <FaMailBulk className="social-media-icon" />
               </a>
           </div>
