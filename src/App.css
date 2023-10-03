@@ -51,6 +51,27 @@ h5 {
   margin: 2rem 0 4rem 0;
 } */
 
+.flex-ctr-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-ctr-ctr-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-btw {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -60,6 +81,10 @@ h5 {
 
 text-ctr {
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }
 
 /* TABLET - fonts 85% of desktop size */

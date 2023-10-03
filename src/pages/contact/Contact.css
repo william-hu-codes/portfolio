@@ -5,7 +5,7 @@
 }
 
 .contact-ctr-main > h3 {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .contact-ctr-main h3, .contact-ctr-main h1 {
@@ -14,8 +14,48 @@
 
 .contact-ctr {
     margin-top: 5rem;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1.5rem;
+}
+
+.contact-form label{
+    color: var(--taupe-color);
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form input {
+    padding: 5px;
+    width: 25vw;
+    background-color: var(--taupe-color);
+    border: none;
+}
+
+.contact-form textarea {
+    height: 10vh;
+    background-color: var(--taupe-color);
+    border: none;
+}
+
+.contact-form input[type=submit] {
+    border-radius: 0.15rem;
+}
+
+@media only screen and (max-width: 935px) {
+    .contact-form input {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 615px) {
 
 }
+
 
 /* .contact-ctr {
     margin-top: 5rem;

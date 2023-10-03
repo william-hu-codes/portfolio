@@ -28,6 +28,7 @@ export default function Contact(){
                 <input type="email" name="user_email" />
                 <label>Message</label>
                 <textarea name="message" />
+                <div></div>
                 <input type="submit" value="Send" />
             </form>
         </div>
