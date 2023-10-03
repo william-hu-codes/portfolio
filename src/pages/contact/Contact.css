@@ -1,0 +1,22 @@
+.contact-ctr-main {
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-color:var(--latte-color);
+}
+
+.contact-ctr-main > h3 {
+    margin-top: 5rem;
+}
+
+.contact-ctr-main h3, .contact-ctr-main h1 {
+    color: var(--taupe-color);
+}
+
+.contact-ctr {
+    margin-top: 5rem;
+
+}
+
+/* .contact-ctr {
+    margin-top: 5rem;
+} */
