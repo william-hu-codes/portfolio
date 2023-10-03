@@ -98,6 +98,10 @@ img.project-img {
     cursor:pointer
 }
 
+/* .projects-ctr-main button:disabled {
+    background-color: var(--spring-rain-color);
+} */
+
 .projects-ctr-main button:disabled:hover {
     /* background-color: var(--spring-rain-color); */
     margin: 10px;
