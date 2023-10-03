@@ -2,13 +2,13 @@
   {
     "name": "Renal Consults",
     "live": "https://renalconsults.com/aki/",
-    "git": "https://github.com/rmhayden/aki-consult",
+    "git": "https://github.com/william-hu-codes/hyponatremia",
     "gitDisabled": true,
-    "image": "https://i.imgur.com/blz6L7e.png",
-    "tools": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI", "Heroku", "BlueHost"],
-    "description": "App designed to empower nephrologists and healthcare providers with a cutting-edge tool for generating comprehensive consult summaries, diagnostic impressions, and recommended interventions.",
+    "image": "https://i.imgur.com/TjAUyaP.png",
+    "tools": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI"],
+    "description": "Virtual patient simulator developed to train physicians and advanced practice providers on caring for patients with hyponatremia. AI integration for case generation to ensure no two cases are the exact same.",
     "developer": "Collaborative Developer",
-    "date": "August 2023"
+    "date": "October 2023"
   },
   {
     "name": "Hyponatremia Simulator",
@@ -16,7 +16,7 @@
     "git": "https://github.com/rmhayden/aki-consult",
     "gitDisabled": true,
     "image": "https://i.imgur.com/blz6L7e.png",
-    "tools": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI", "Heroku", "BlueHost"],
+    "tools": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI"],
     "description": "App designed to empower nephrologists and healthcare providers with a cutting-edge tool for generating comprehensive consult summaries, diagnostic impressions, and recommended interventions.",
     "developer": "Collaborative Developer",
     "date": "August 2023"
