@@ -10,12 +10,14 @@
 }
 
 #scroll-up-icon {
-    color: var(--latte-color);
+    /* color: var(--latte-color); */
+    color: var(--spring-rain-color);
     padding: 5px
 }
 
 #scroll-up-icon:hover {
     color: lightsalmon;
+    /* color: var(--latte-color); */
     background-color: white;
     border-radius: 50%;
 }
