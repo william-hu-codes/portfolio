@@ -44,6 +44,7 @@
 
 .contact-form input[type=submit] {
     border-radius: 0.15rem;
+    border: 1px solid var(--sand-color);
 }
 
 @media only screen and (max-width: 935px) {

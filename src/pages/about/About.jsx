@@ -19,7 +19,7 @@ export default function About(props) {
   useEffect(() => { getAboutData() }, [])
 
   const SkillsList = about?.skills.map((skill, idx) => <SkillItem skill={skill} key={idx} /> )
-  console.log(SkillsList)
+  // console.log(SkillsList)
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
