@@ -87,6 +87,8 @@ img.project-img {
     font-size: 15px;
     border: 1.5px solid var(--olive-color);
     background-color: var(--sand-color);
+    color: black;
+    transition: 0.15s;
 
 }
 

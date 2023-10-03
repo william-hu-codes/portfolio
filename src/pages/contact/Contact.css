@@ -45,6 +45,7 @@
 .contact-form input[type=submit] {
     border-radius: 0.15rem;
     border: 1px solid var(--sand-color);
+    color: var(--latte-color)
 }
 
 .contact-form input[type=submit]:hover {
