@@ -2,9 +2,23 @@
   {
     "name": "Renal Consults",
     "live": "https://renalconsults.com/aki/",
+    "git": "https://github.com/william-hu-codes/hyponatremia",
+    "gitDisabled": true,
+    "image": "https://i.imgur.com/TjAUyaP.png",
+    "_comment": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI"],
+    "tools": ["MongoDB", "Express", "React", "Node.js", "CSS", "GitHub", "OpenAI"],
+    "description": "Virtual patient simulator developed to train physicians and advanced practice providers on caring for patients with hyponatremia. AI integration for case generation to ensure no two cases are the exact same.",
+    "developer": "Collaborative Developer",
+    "date": "October 2023"
+  },
+  {
+    "name": "Hyponatremia Simulator",
+    "live": "https://renalprimers.com/",
     "git": "https://github.com/rmhayden/aki-consult",
+    "gitDisabled": true,
     "image": "https://i.imgur.com/blz6L7e.png",
-    "tools": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI", "Heroku", "BlueHost"],
+    "_comment": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI"],
+    "tools": ["MongoDB", "Express", "React", "Node.js", "CSS", "GitHub", "OpenAI"],
     "description": "App designed to empower nephrologists and healthcare providers with a cutting-edge tool for generating comprehensive consult summaries, diagnostic impressions, and recommended interventions.",
     "developer": "Collaborative Developer",
     "date": "August 2023"
@@ -13,8 +27,9 @@
     "name": "Wavelength: EMR",
     "live": "https://wavelengthemr.com",
     "git": "https://github.com/william-hu-codes/electronic-medical-record",
+    "gitDisabled": false,
     "image": "https://i.imgur.com/2VFrfrL.png",
-    "tools": ["JavaScript", "CSS", "HTML", "Mongoose", "MongoDB", "Express", "Node", "Heroku"],
+    "tools": ["MongoDB", "Express", "Node", "JavaScript", "CSS", "EJS"],
     "description": "Fully functional electronic medical record with user authentication using Google OAuth. Integrates OpenAI to automatically generate discharge summaries by parsing through the patient's existing progress notes.",
     "developer": "Collaborative Developer",
     "date": "August 2023"
@@ -22,6 +37,7 @@
   {
     "name": "Space Invaders",
     "live": "https://william-hu-codes.github.io/space-invaders/",
+    "gitDisabled": false,
     "git": "https://github.com/william-hu-codes/space-invaders",
     "image": "https://i.imgur.com/o3BzO1D.png",
     "tools": ["JavaScript", "CSS", "HTML"],
@@ -34,6 +50,7 @@
     "name": "Tic-Tac-Toe",
     "live": "https://william-hu-codes.github.io/tic-tac-toe/",
     "git": "https://github.com/william-hu-codes/tic-tac-toe",
+    "gitDisabled": false,
     "image": "https://i.imgur.com/Zx20dHx.png",
     "tools": ["JavaScript", "CSS", "HTML"],
     "description": "Classic two-player strategy game where the objective is to form a line of three of your symbols in a row, either horizontally, vertically, or diagonally on a 3x3 grid.",

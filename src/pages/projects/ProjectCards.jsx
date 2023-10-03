@@ -2,11 +2,11 @@ export default function ProjectCards({project, idx}) {
   const toolsList = project.tools.map((tool, index) => <p key={index} className="tool">{tool}</p>)
 
     return (
-        <div className="project-card" key={idx} >
+        <div className="project-card flex-col-btw" key={idx} >
           <div className="flex-ctr-ctr project-img-div">
             <img className="project-img" src={project.image} />
             <div className="project-tools">
-              <h3 className="flex-ctr-ctr">Built with:</h3>
+              <h3 className="flex-ctr-ctr">Built with</h3>
               <div className="flex-ctr-ctr tools-list-ctr">
                 {toolsList}
               </div>
@@ -17,7 +17,7 @@ export default function ProjectCards({project, idx}) {
           <p className="flex-ctr-ctr description">{project.description}</p>
           <div className="buttons-div flex-ctr-ctr" >
             <a href={project.git}>
-              <button>// GitHub</button>
+              <button disabled={project.gitDisabled}>// GitHub</button>
             </a>
             <a href={project.live}>
               <button>// Live Site</button>

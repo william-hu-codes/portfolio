@@ -28,7 +28,7 @@ function Projects(props) {
     return (
       <section className="projects-ctr-main flex-ctr-ctr-col" id="projects">
         <h3>// TAKE A LOOK AT</h3>
-        <h1 className="flex-ctr-ctr">My Projects</h1>
+        <h1 className="flex-ctr-ctr">MY PROJECTS</h1>
         <div className="projects-grid-ctr" >
           {projectsList}
         </div>
