@@ -22,7 +22,7 @@
 .project-card {
     border-radius: 25px;
     background-color: var(--sand-color);
-    border: 1.5px solid var(--olive-color);
+    /* border: 1.5px solid var(--olive-color); */
 
 }
 

@@ -1,10 +1,10 @@
 [
   {
-    "name": "Renal Consults",
-    "live": "https://renalconsults.com/aki/",
+    "name": "Hyponatremia Simulator",
+    "live": "https://renalprimers.com/",
     "git": "https://github.com/william-hu-codes/hyponatremia",
     "gitDisabled": true,
-    "image": "https://i.imgur.com/TjAUyaP.png",
+    "image": "https://i.imgur.com/on7Kalv.png",
     "_comment": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI"],
     "tools": ["MongoDB", "Express", "React", "Node.js", "CSS", "GitHub", "OpenAI"],
     "description": "Virtual patient simulator developed to train physicians and advanced practice providers on caring for patients with hyponatremia. AI integration for case generation to ensure no two cases are the exact same.",
@@ -12,8 +12,8 @@
     "date": "October 2023"
   },
   {
-    "name": "Hyponatremia Simulator",
-    "live": "https://renalprimers.com/",
+    "name": "Renal Consult",
+    "live": "https://renalconsults.com/aki/",
     "git": "https://github.com/rmhayden/aki-consult",
     "gitDisabled": true,
     "image": "https://i.imgur.com/blz6L7e.png",
