@@ -1,6 +1,6 @@
 [
   {
-    "name": "Hyponatremia Simulator",
+    "name": "Hyponatremia Simulation",
     "live": "https://renalprimers.com/",
     "git": "https://github.com/william-hu-codes/hyponatremia",
     "gitDisabled": true,
@@ -12,7 +12,7 @@
     "date": "October 2023"
   },
   {
-    "name": "Renal Consult",
+    "name": "Renal Consults",
     "live": "https://renalconsults.com/aki/",
     "git": "https://github.com/rmhayden/aki-consult",
     "gitDisabled": true,
