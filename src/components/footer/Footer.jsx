@@ -12,7 +12,7 @@ function Footer(props) {
           <h5 className="footer-text">|</h5>
           {/* <h5 className="footer-text">® 2023</h5> */}
           <h5 className="footer-text">Connect with me</h5>
-          <h5 className="footer-text">|</h5>
+          <h5 className="footer-text">→</h5>
           <div className="social-media-ctr">
               <a href="https://www.linkedin.com/in/william-wl-hu" target="_blank" >
                 <FaLinkedin className="social-media-icon" />
