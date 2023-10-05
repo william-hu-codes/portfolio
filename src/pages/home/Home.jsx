@@ -1,7 +1,7 @@
 import "./Home.scss"
 // import { HiOutlineComputerDesktop } from "react-icons/hi2"
 // import { MdComputer } from "react-icons/md"
-import resume from "../../assets/files/William-Hu-Fullstack-Software-Developer.pdf"
+import resume from "../../assets/files/William-Hu-Fullstack-Developer-Registered-Nurse.pdf"
 import { TbDeviceImacCode } from "react-icons/tb"
 import { HiDownload } from "react-icons/hi"
 import { Link } from "react-router-dom"
