@@ -15,8 +15,8 @@ export default function Main() {
                 <Route exact path="/" element={ 
                     <>
                         <Home />
-                        <About />
                         <Projects />
+                        <About />
                         <Contact />
                     </>
                 }/>
