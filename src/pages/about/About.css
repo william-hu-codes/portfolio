@@ -1,6 +1,6 @@
 .about-ctr-main {
     background-color: var(--buffed-beige-color);
-    height: 110vh;
+    min-height: 110vh;
     /* padding-top: 6rem; */
 }
 .about-ctr-main > h3 {
