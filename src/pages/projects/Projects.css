@@ -1,5 +1,6 @@
 .projects-ctr-main {
     height: auto;
+    min-height: 110vh;
     /* padding-top: 2rem;; */
     background-color: var(--terracotta-color);
     /* border: 1px solid red; */
