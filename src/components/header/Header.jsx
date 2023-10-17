@@ -14,10 +14,10 @@ export default function Header(props) {
               {/* <img className="logo" src="https://i.imgur.com/JqRF8Em.png" alt="William Hu Logo" /> */}
               < GiSpermWhale className="logo" />
             </NavHashLink>
-            <NavHashLink className="link" smooth to="/#home" >
+            {/* <NavHashLink className="link" smooth to="/#home" > */}
               {/* <h3 className="nav-text" >// HOME</h3> */}
-              // HOME
-            </NavHashLink>
+              {/* // HOME */}
+            {/* </NavHashLink> */}
             <NavHashLink className="link" smooth to="/#projects" >
               {/* <h3 className="nav-text" >// PROJECTS</h3> */}
               // PROJECTS
@@ -25,6 +25,10 @@ export default function Header(props) {
             <NavHashLink className="link" smooth to="/#about" >
               {/* <h3 className="nav-text" >// ABOUT</h3> */}
               // ABOUT
+            </NavHashLink>
+            <NavHashLink className="link" smooth to="/#contact" >
+              {/* <h3 className="nav-text" >// HOME</h3> */}
+              // CONTACT
             </NavHashLink>
           </nav>
         </header>

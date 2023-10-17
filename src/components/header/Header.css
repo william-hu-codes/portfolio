@@ -1,60 +1,52 @@
 .logo {
-   font-size: 60px;
+   font-size: 55px;
    color: black;
    transition: 0.75s;
 }
 
 .logo:hover {
     color: lightsalmon;
-    font-size: 70px;
+    font-size: 65px;
     transition: 0.50s;
 }
 
-header {
-    background-color: rgba(248, 223, 219, 1.0);
+/* header {
     background-color: var(--sand-color);
-    height: auto;
     width: 100vw;
     position:fixed;
     top: 0;
-    display: inline;
-}
+    height: 60px;
+} */
 
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* padding: 0.5rem; */
+    background-color: var(--sand-color);
+    width: 100vw;
+    position:fixed;
+    top: 0;
     height: 60px;
-    /* width: 90%; */
-}
 
-/* .nav-text {
-    text-decoration: none;
-    padding: 5px;
-    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 10vw;
 }
-
-.nav-text:hover {
-    background-color: lightsalmon;
-    color: white; 
-} */
 
 .logo-ctr {
-    align-self: center;
-    justify-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: auto;
-    padding-left: 10px;
 }
 
 .link {
     text-decoration: none;
-    margin: auto;
     font-size: 1.5rem;
     font-weight: bold;
     color: black;
-    /* padding: 5px; */
     transition: 0.25s;
 
 }
