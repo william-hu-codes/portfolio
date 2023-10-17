@@ -1,7 +1,7 @@
 @import 'typed';
 
 .home-ctr {
-    height: 100vh;
+    min-height: 100vh;
     // display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,6 +30,8 @@
 
 .intro-container {
     padding-top: 30vh;
+    display: flex;
+    align-items: flex-end;
 }
 
 .intro-container h3 {
@@ -49,7 +51,7 @@ span.typed-text {
 	background-color: lightsalmon;
 	&::before { font-weight: 600; }
 	@include typed(
-		"Software Engineer!", "Full-Stack Developer!", "Registered Nurse!", "Programmer!", "Software Developer!", 
+		"Software Engineer!", "Full-Stack Developer!", "Registered Nurse!", 
 		2,
 		(caret-width: 2px, caret-space: 2px)
 	);
@@ -58,7 +60,7 @@ span.typed-text {
 .home-ctr button {
     margin: 5px;
     height: 2.5rem;
-    border-radius: 0.15rem;
+    border-radius: var(--button-radius);
     background-color: var(--sand-color);
     border: 1px solid black;
     font-size: 1rem;

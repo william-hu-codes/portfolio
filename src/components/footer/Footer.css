@@ -16,12 +16,12 @@ footer {
 }
 
 footer > h4 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .social-media-icon {
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     transition: 0.75s;
 }
 
@@ -29,10 +29,10 @@ footer > h4 {
     /* background-color: lightsalmon; */
     /* border-radius: 5px; */
     color: lightsalmon;
-    font-size: 25px;
+    /* font-size: 28px; */
     transition: 0.25s
 }
 
 .footer-text {
-    font-size: 12px;
+    font-size: 14px;
 }

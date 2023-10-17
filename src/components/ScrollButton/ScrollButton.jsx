@@ -19,7 +19,7 @@ export default function ScrollButton() {
 
     return (
         <div
-            id="scrolToTop"
+            id="scrollToTop"
             onClick={() => {
             window.scrollTo({
                 top: 0,

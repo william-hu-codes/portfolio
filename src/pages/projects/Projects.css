@@ -1,5 +1,6 @@
 .projects-ctr-main {
     height: auto;
+    min-height: 110vh;
     /* padding-top: 2rem;; */
     background-color: var(--terracotta-color);
     /* border: 1px solid red; */
@@ -20,17 +21,20 @@
 }
 
 .project-card {
-    border-radius: 25px;
+    border-radius: var(--radius);
     background-color: var(--sand-color);
     /* border: 1.5px solid var(--olive-color); */
-
 }
+
+/* .project-card:hover {
+    box-shadow: var(--shadow);
+} */
 
 img.project-img {
     width: 20vw;
     height: 20vw;
     margin-top: 30px;
-    border-radius: 25px;
+    border-radius: var(--radius);
     /* border: 2px solid red; */
 }
 
@@ -44,7 +48,7 @@ img.project-img {
     width: 20vw;
     height: 20vw;
     margin-top: 30px;
-    border-radius: 25px;
+    border-radius: var(--radius);
 }
 
 .project-img-div:hover .project-tools {
@@ -60,8 +64,8 @@ img.project-img {
 
 .project-img-div:hover .project-tools h3 {
     background-color: var(--latte-color);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
     color: var(--taupe-color);
     padding: 0.25rem
 }
@@ -84,12 +88,23 @@ img.project-img {
     margin: 10px;
     height: 3rem;
     width: 7rem;
-    border-radius: 10px;
+    border-radius: var(--radius);
     font-size: 15px;
     border: 1.5px solid var(--olive-color);
-    background-color: var(--sand-color);
+    /* background-color: var(--sand-color); */
     color: black;
     transition: 0.15s;
+}
+
+.live-button {
+    /* background-color: rgb(224, 192, 159); */
+    background-color: rgb(192, 174, 154);
+}
+
+.github-button {
+    /* background-color: rgb(230, 213, 198); */
+    background-color: rgb(222, 207, 188);
+
 }
 
 .project-card button:disabled {
@@ -133,7 +148,7 @@ img.project-img {
 .project-card .tool {
     background-color: var(--latte-color);
     color: white;
-    border-radius: 25px;
+    border-radius: var(--radius);
     padding: 3px;
 }
 

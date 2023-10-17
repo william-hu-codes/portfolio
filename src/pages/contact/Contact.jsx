@@ -30,11 +30,11 @@ export default function Contact(){
         <div className="contact-ctr">
             <form ref={form} onSubmit={sendEmail} className="contact-form">
                 <label>Name</label>
-                <input type="text" name="user_name" disabled={disabled} />
+                <input type="text" name="user_name" disabled={disabled} required />
                 <label>Email</label>
-                <input type="email" name="user_email" disabled={disabled} />
+                <input type="email" name="user_email" disabled={disabled} required />
                 <label>Message</label>
-                <textarea name="message" disabled={disabled} />
+                <textarea name="message" disabled={disabled} required />
                 <div></div>
                 <input type="submit" disabled={disabled} value={isSent ? "Message sent!" : status} />
             </form>

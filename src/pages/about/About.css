@@ -1,6 +1,6 @@
 .about-ctr-main {
     background-color: var(--buffed-beige-color);
-    height: 110vh;
+    min-height: 110vh;
     /* padding-top: 6rem; */
 }
 .about-ctr-main > h3 {
@@ -18,7 +18,7 @@
 .headshot > img {
     width: 28vw;
     height: auto;
-    border-radius: 25px;
+    border-radius: var(--radius);
 }
 
 .about-grid {
@@ -38,18 +38,22 @@
 
 .skills {
     /* border: 1.5px solid black; */
-    border-radius: 25px;
+    border-radius: var(--radius);
     background-color: var(--sand-color);
     padding: 10px;
+    /* gap: 0.6rem; */
+    justify-content: space-evenly;
 
 }
 
 .education {
     /* border: 1.5px solid black; */
-    border-radius: 25px;
-    gap: 0.30rem;
+    border-radius: var(--radius);
+    /* gap: 0.60rem; */
     background-color: var(--sand-color);
     padding: 10px;
+    justify-content: space-evenly;
+
 
 }
 
@@ -84,7 +88,7 @@
     display: flex;
     align-items: center;
     /* border: 1.5px solid black; */
-    border-radius: 25px;
+    border-radius: var(--radius);
     padding: 10px;
     background-color: var(--sand-color);
 }

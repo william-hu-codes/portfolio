@@ -30,7 +30,7 @@
     "gitDisabled": false,
     "image": "https://i.imgur.com/2VFrfrL.png",
     "tools": ["MongoDB", "Express", "Node", "JavaScript", "CSS", "EJS"],
-    "description": "Fully functional electronic medical record with user authentication using Google OAuth. Integrates OpenAI to automatically generate discharge summaries by parsing through the patient's existing progress notes.",
+    "description": "Fully functional electronic medical record with OpenAI integration to automatically generate discharge summaries by synthesizing all the patient's existing progress notes, allowing healthcare providers to focus more on patient interaction.",
     "developer": "Collaborative Developer",
     "date": "August 2023"
   },
