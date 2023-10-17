@@ -94,11 +94,14 @@ img.project-img {
 }
 
 .live-button {
-    background-color: rgb(224, 192, 159);
+    /* background-color: rgb(224, 192, 159); */
+    background-color: rgb(192, 174, 154);
 }
 
 .github-button {
-    background-color: rgb(230, 213, 198);
+    /* background-color: rgb(230, 213, 198); */
+    background-color: rgb(222, 207, 188);
+
 }
 
 .project-card button:disabled {

@@ -75,7 +75,7 @@ nav {
 }
 
 /* PHONE 75% of desktop size */
-@media only screen and (max-width: 615px) {
+/* @media only screen and (max-width: 615px) {
     .logo {
         font-size: 48px;
     }
@@ -84,5 +84,21 @@ nav {
     }
     header {
         position: relative;
+    }
+} */
+
+/* PHONE 60% of desktop size */
+@media only screen and (max-width: 615px) {
+    .logo {
+        font-size: 35.75px;
+    }
+    .logo:hover {
+        font-size: 43px
+    }
+    .link {
+        font-size: 0.975rem;
+    }
+    .link:hover {
+        font-size: 1.15rem;
     }
 }

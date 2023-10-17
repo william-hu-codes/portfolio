@@ -20,15 +20,15 @@ export default function Header(props) {
             {/* </NavHashLink> */}
             <NavHashLink className="link" smooth to="/#projects" >
               {/* <h3 className="nav-text" >// PROJECTS</h3> */}
-              // PROJECTS
+              PROJECTS
             </NavHashLink>
             <NavHashLink className="link" smooth to="/#about" >
               {/* <h3 className="nav-text" >// ABOUT</h3> */}
-              // ABOUT
+              ABOUT
             </NavHashLink>
             <NavHashLink className="link" smooth to="/#contact" >
               {/* <h3 className="nav-text" >// HOME</h3> */}
-              // CONTACT
+              CONTACT
             </NavHashLink>
           </nav>
         </header>
