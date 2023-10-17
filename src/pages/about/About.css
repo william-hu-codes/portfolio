@@ -159,7 +159,7 @@
     .skills {
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
-        max-height: 250px;
+        max-height: 200px;
 
     }
     .bio {
