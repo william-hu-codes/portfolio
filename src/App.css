@@ -11,6 +11,7 @@
     font-family: 'Lato', sans-serif;
 }
 
+
 p,
 li,
 h1,
@@ -84,6 +85,10 @@ text-ctr {
 
 .hidden {
   display: none;
+}
+
+.App *:focus {
+  outline-color: lightsalmon
 }
 
 /* TABLET - fonts 85% of desktop size */
