@@ -69,8 +69,14 @@ nav {
     .logo {
         font-size: 52.17px;
     }
+    .logo:hover {
+        font-size: 62px;
+    }
     .link {
         font-size: 1.30rem;
+    }
+    .link:hover {
+        font-size: 1.60rem;
     }
 }
 
