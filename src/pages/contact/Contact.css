@@ -19,7 +19,7 @@
 .contact-form {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 0.88rem;
+    gap: 1.5rem;
 }
 
 .contact-form label{
