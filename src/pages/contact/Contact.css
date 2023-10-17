@@ -43,7 +43,8 @@
 }
 
 .contact-form input[type=submit] {
-    border-radius: 0.15rem;
+    /* border-radius: 0.15rem; */
+    border-radius: var(--button-radius);
     border: 1px solid var(--sand-color);
     color: var(--latte-color)
 }

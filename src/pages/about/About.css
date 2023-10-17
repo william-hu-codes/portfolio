@@ -18,7 +18,7 @@
 .headshot > img {
     width: 28vw;
     height: auto;
-    border-radius: 25px;
+    border-radius: var(--radius);
 }
 
 .about-grid {
@@ -38,7 +38,7 @@
 
 .skills {
     /* border: 1.5px solid black; */
-    border-radius: 25px;
+    border-radius: var(--radius);
     background-color: var(--sand-color);
     padding: 10px;
 
@@ -46,7 +46,7 @@
 
 .education {
     /* border: 1.5px solid black; */
-    border-radius: 25px;
+    border-radius: var(--radius);
     gap: 0.30rem;
     background-color: var(--sand-color);
     padding: 10px;
@@ -84,7 +84,7 @@
     display: flex;
     align-items: center;
     /* border: 1.5px solid black; */
-    border-radius: 25px;
+    border-radius: var(--radius);
     padding: 10px;
     background-color: var(--sand-color);
 }

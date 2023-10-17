@@ -21,7 +21,7 @@
 }
 
 .project-card {
-    border-radius: 25px;
+    border-radius: var(--radius);
     background-color: var(--sand-color);
     /* border: 1.5px solid var(--olive-color); */
 
@@ -31,7 +31,7 @@ img.project-img {
     width: 20vw;
     height: 20vw;
     margin-top: 30px;
-    border-radius: 25px;
+    border-radius: var(--radius);
     /* border: 2px solid red; */
 }
 
@@ -45,7 +45,7 @@ img.project-img {
     width: 20vw;
     height: 20vw;
     margin-top: 30px;
-    border-radius: 25px;
+    border-radius: var(--radius);
 }
 
 .project-img-div:hover .project-tools {
@@ -85,12 +85,20 @@ img.project-img {
     margin: 10px;
     height: 3rem;
     width: 7rem;
-    border-radius: 10px;
+    border-radius: var(--radius);
     font-size: 15px;
     border: 1.5px solid var(--olive-color);
-    background-color: var(--sand-color);
+    /* background-color: var(--sand-color); */
     color: black;
     transition: 0.15s;
+}
+
+.live-button {
+    background-color: rgb(224, 192, 159);
+}
+
+.github-button {
+    background-color: rgb(230, 213, 198);
 }
 
 .project-card button:disabled {
@@ -134,7 +142,7 @@ img.project-img {
 .project-card .tool {
     background-color: var(--latte-color);
     color: white;
-    border-radius: 25px;
+    border-radius: var(--radius);
     padding: 3px;
 }
 
