@@ -22,7 +22,7 @@ footer > h4 {
 .social-media-icon {
     color: black;
     font-size: 22px;
-    transition: 0.75s;
+    transition: 0.5s;
 }
 
 .social-media-icon:hover {
@@ -35,4 +35,15 @@ footer > h4 {
 
 .footer-text {
     font-size: 14px;
+}
+
+.blog-link {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s
+}
+
+.blog-link:hover {
+    color: lightsalmon;
+    transition: 0.25s
 }
