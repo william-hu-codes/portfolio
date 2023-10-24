@@ -11,7 +11,7 @@ function Footer(props) {
           <h5 className="footer-text">© William Hu, 2023</h5>
           <h5 className="footer-text">|</h5>
           {/* <h5 className="footer-text">® 2023</h5> */}
-          <a className="blog-link" href="https://william-hu-codes.com/"><h5 className="footer-text">my-blog</h5></a>
+          <a className="blog-link" href="https://william-hu-codes.com/" target="_blank"><h5 className="footer-text">my-blog</h5></a>
           <h5 className="footer-text">|</h5>
           {/* <h5 className="footer-text">→</h5> */}
           <div className="social-media-ctr">
