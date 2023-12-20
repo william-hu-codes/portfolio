@@ -2,8 +2,8 @@
   {
     "name": "10 Questions",
     "live": "https://fascinating-cocada-c596ee.netlify.app/",
-    "git": "https://github.com/rmhayden/20questions",
-    "gitDisabled": true,
+    "git": "https://github.com/william-hu-codes/10-questions",
+    "gitDisabled": false,
     "image": "https://i.imgur.com/cYa8wcm.png",
     "_comment": ["JavaScript", "HTML", "CSS", "Node", "Mongoose", "MongoDB", "Express", "React", "GitHub", "openAI"],
     "tools": ["MongoDB", "Express", "React", "Node.js", "CSS", "GitHub", "OpenAI"],
